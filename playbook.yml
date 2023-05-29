@@ -1,0 +1,8 @@
+---
+- name: Ansible Dynamic Invenyory
+  gather_facts: true
+  user: ubuntu
+  hosts: tag_Name_Ubuntu
+  tasks:
+      name: Run Shell Command
+      command: "ping www.google.com -c 10" 
